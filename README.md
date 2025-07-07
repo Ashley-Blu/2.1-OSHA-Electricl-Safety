@@ -19,4 +19,4 @@ Front-end
 Referring line
 - salsa digital, osha.gov, google
 
-![Screenshot](assets/shot.png.jpg)
+![Screenshot](assets/shot.jpg)
