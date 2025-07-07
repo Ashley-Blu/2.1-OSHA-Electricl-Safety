@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: none;
+  color: #ffffff;
+  line-height: 1.6;
+  display:flex;
+  justify-content: space-between;
+}
+
+header {
+  background-color: red;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.container {
+  padding: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/danger.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+section {
+  background-color: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(8px);
+}
+
+section h2 {
+  margin-top: 0;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+ i {
+  margin-right: 10px;
+  color: #e74c3c;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  transition: max-height 0.4s ease-out;
+  padding: 0 15px;
+}
+
+.accordion-content.show {
+  max-height: 200px;
+  padding: 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  section {
+    font-size: 0.95rem;
+  }
+}
